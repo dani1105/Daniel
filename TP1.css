@@ -1,0 +1,276 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none ;
+	font-family: italic;
+	font-style:none ;
+}
+.navigator{
+	width: 100%;
+	position: fixed;
+	background-color: purple;
+
+}
+.navigator .max-hight{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin-bottom:5px ;
+}
+.logo a{
+	color: red;
+	font-size: 30px;
+	font-weight: 400px;
+}
+.logo a span{
+	color: cyan;
+}
+.logo img{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	margin-top: 10px;
+}
+.Menu{
+	padding-top: 20px;
+}
+.Menu li{
+	display: inline-block;
+}
+.Menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 2px;
+	transition: color 1s;
+	margin-top: 20px;
+}
+}
+.Menu li a:hover{
+	color: red;
+	margin-bottom:5px;
+}
+/*************************************************/
+.home{
+	height: 800px;
+	width: 100%;
+	display: flex;
+	background:url('Feu.jpg');
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+.max-width{
+	color: purple;
+	padding-top:50px;
+}
+.text-1{
+	font-size: 50px;
+	font-weight: 500px;
+	padding-top:150px;
+	color: purple;
+}
+.text-2{
+	color: red;
+	font-size: 50px;
+	font-weight: 500px;
+}
+.text-3 {
+	font-size: 20px;
+	font-weight: 300px;
+	color: purple;
+}
+.text-3 span{
+	color: red;
+}
+.button-one{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 30px;
+	background-color: purple;
+	color: white;
+	border:2px dashed red;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 80%;
+}
+.button-one:hover{
+	background:none;
+	color: purple;
+	border:4px solid white;
+}
+/*******************************************************************************/
+.Division{
+	
+}
+.announce{
+	font-size: 20px;
+	font-weight: 200px;
+	text-align: center;
+	
+}
+.announce h1{
+	text-decoration: underline;
+}
+.Division .Presentation{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 60px;
+}
+.text-right{
+	width: 50%;
+}
+.image-left{
+	width: 50%;
+}
+ .image-left img{
+	height: 400px;
+	width: 300px;
+	border-radius: 8px;
+
+}
+ .text-right .text3 {
+	font-size: 20px;
+	font-weight:200px;
+	color: purple;
+	margin:0px 100px 50px ;
+}
+.text-right .text3 span {
+	color: red purple;
+	font-family: cursive;
+	text-decoration: underline ;
+}
+ .text-right .text3 p{
+	font-size: 15px;
+	text-align: justify;
+
+}
+.button-two{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 50px;
+	background-color: purple;
+	color: white;
+	border:2px dashed white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.button-two:hover{
+	color:black;
+	background:none;
+	border:1px solid black;
+}
+/**********************************************************/
+.ME{
+	color: purple;
+	font-family: cursive;
+	font-size: 40px;
+	padding: 50px 0px 50px 0px;
+}
+
+.Clan{
+	display: flex;
+	background-color: ;
+	padding-right: 50%;
+	margin:0% 15% 0% 20%;	
+}
+.Clan h4{
+	color: purple;
+	font-size: 20px;
+	position: center;
+}
+.Ligne{
+	color:purple;
+	font-size: 25px;
+}
+.I1 img{
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	padding: 20px 50px 20px 50px;
+	margin-top: 10% 
+}
+.MT {
+	color: purple;
+	font-family: cursive;
+	font-size: 25px;
+	text-align: center;
+}
+.Branche{
+	background-color: cyan;
+	margin: 20% 70% 80% 30%;
+}
+
+.guide{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.Titre h5{
+	color: purple;
+	font-family: fantasy; ;
+	font-size: 40px;
+	text-decoration: underline;
+	transform-style: italic:;
+
+}
+.Formulaire{	
+	color: red;
+}
+.button-three{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 50px;
+	background-color: cyan;
+	color: purple;
+	border:2px solid purple;
+	padding: 10px 25px;
+	border-radius: 10px;
+	font-family: times;
+}
+
+.button-three:hover{
+	color:cyan;
+	background:purple;
+	border:1px solid cyan;
+	font-family: arial;
+}
+.guide h6{
+	color: purple;
+	font-family: apple chancery;
+	font-size: 20px;
+}
+.INF img{
+	height: 30px;
+	width: 30px;
+}
+.bare{
+	color:cyan;
+	background-color:purple;
+	display:block;
+    font-style:italic;
+    font-family:serif;
+    letter-spacing:4px;			
+    text-align:center;
+    border-radius:5px;
+	margin-bottom: 100%;
+	object-position: fixed;   					   
+}
+.bare span{
+	font-family: cursive;
+	color:pink;
+	text-decoration: double underline;
+}
+.title2{
+	font-size: 20px;
+	font-family: serif;
+}
+.title2 span{
+	font-family: cursive;
+	color:red;
+	text-decoration: double underline;
+}
